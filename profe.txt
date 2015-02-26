@@ -1,4 +1,7 @@
 Archivo del profe.
+<<<<<<< HEAD
+yasmin
+=======
 
 <<<<<<< HEAD
 qwerty
