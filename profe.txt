@@ -1,3 +1,11 @@
 Archivo del profe.
 
+<<<<<<< HEAD
 qwerty
+=======
+
+
+
+
+Benjamin Criollo
+>>>>>>> 9268b93337ef66b91c7a6512f4e3ece4da060d08
