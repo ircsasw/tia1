@@ -1,4 +1,4 @@
-<?php
+echp<?php
 
 	$Link = mysql_connect(
 "localhost",
@@ -33,7 +33,13 @@ $Link) or die(mysql_error());
 						echo "<tr>";
 						echo "<td>". $row ["alumnos"]. "</td>";
 						echo"<td>". $row ["comentarios"]. "</td>";
-						echo "<td>". $row ["temas"]. 	}
+						echo "<td>". $row ["temas"]."</td>";
+						echo "<td>". $row ["usuarios"]. "</td>";
+						echo "</tr>";
+					}
+				?>
+			
+
 			
 		</table>
 	</body>
