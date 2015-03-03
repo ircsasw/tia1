@@ -1,4 +1,4 @@
-echp<?php
+<?php
 
 	$Link = mysql_connect(
 "localhost",
