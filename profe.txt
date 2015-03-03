@@ -1,10 +1,18 @@
+<<<<<<< HEAD
 Pro:
+=======
+Pro: Hola mundo!!
+>>>>>>> b082f50ce2106e1ae3c2a25881690cc465cc077a
 
 
 Yass: hola
 
 
-Ben:
+<<<<<<< HEAD
+Ben: me gustan grandes
+=======
+Ben:Benjamin Criollo
+>>>>>>> abab1bb6f57cb9cd6c558a996b09415506a6010a
 
 
 Arturo:qwerty
