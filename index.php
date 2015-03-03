@@ -28,7 +28,7 @@ $Link) or die(mysql_error());
 				<th>usuarios</th>
 			</tr>
 				<?php
-					while ($row = mysql_fetch_array($rs_alumnos)) 
+					while ($row = mysql_fetch_array($rs_temas)) 
 					{
 						echo "<tr>";
 						echo "<td>". $row ["alumnos"]. "</td>";
@@ -38,7 +38,7 @@ $Link) or die(mysql_error());
 						echo "</tr>";
 					}
 				?>
-			
+
 
 			
 		</table>
