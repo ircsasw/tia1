@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+Pro:
+=======
 Pro: Hola mundo!!
+>>>>>>> b082f50ce2106e1ae3c2a25881690cc465cc077a
 
 
 Yass: hola
