@@ -22,20 +22,23 @@ $Link) or die(mysql_error());
 	<body>
 		<table border="1">
 			<tr>
-				<th>alumnos</th>
-				<th>comentarios</th>
-				<th>temas</th>
-				<th>usuarios</th>
+				<th>id</th>
+				<th>id usuario</th>
+				<th>titulo</th>
+				<th>fecha pub</th>
+				<th>contenido</th>
 			</tr>
 				<?php
 					while ($row = mysql_fetch_array($rs_temas)) 
 					{
 						echo "<tr>";
-						echo "<td>". $row ["alumnos"]. "</td>";
-						echo"<td>". $row ["comentarios"]. "</td>";
-						echo "<td>". $row ["temas"]."</td>";
-						echo "<td>". $row ["usuarios"]. "</td>";
+						echo "<td>". $row ["id"]. "</td>";
+						echo"<td>". $row ["id usuario"]. "</td>";
+						echo "<td>". $row ["titulo"]."</td>";
+						echo "<td>". $row ["fecha pub"]. "</td>";
+						echo "<td>". $row ["contenido"]. "</td>";
 						echo "</tr>";
+
 					}
 				?>
 
