@@ -22,11 +22,11 @@ $Link) or die(mysql_error());
 	<body>
 		<table border="1">
 			<tr>
-				<th>id</th>
-				<th>id usuario</th>
-				<th>titulo</th>
-				<th>fecha pub</th>
-				<th>contenido</th>
+				<th>ID</th>
+				<th>ID Usuario</th>
+				<th>Título</th>
+				<th>Fecha de publicación</th>
+				<th>Contenido</th>
 			</tr>
 				<?php
 					while ($row = mysql_fetch_array($rs_temas)) 
