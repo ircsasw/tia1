@@ -23,9 +23,9 @@ $Link) or die(mysql_error());
 		<table border="1">
 			<tr>
 				<th>id</th>
-				<th>id usuario</th>
+				<th>id_usuario</th>
 				<th>titulo</th>
-				<th>fecha pub</th>
+				<th>fecha_pub</th>
 				<th>contenido</th>
 			</tr>
 				<?php
