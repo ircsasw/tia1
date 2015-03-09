@@ -45,5 +45,5 @@ $Link) or die(mysql_error());
 
 			
 		</table>
-	</body>
+	</body> 
 </html>
