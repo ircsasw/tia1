@@ -45,6 +45,7 @@ $Link) or die(mysql_error());
 
 			-->
 		</table>
+
 		
 		<table border="1">
 		<?php ($row = mysql_fetch_array($rs_temas)) ?>
@@ -69,4 +70,5 @@ $Link) or die(mysql_error());
 
 		</table>
 	</body>
+
 </html>
