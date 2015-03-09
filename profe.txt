@@ -1,10 +1,15 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 Archivo del profe
 
 
 KEVNAVA 
 =======
+Pro:
+>>>>>>> 995e47d611f6679009df783ab9f832bb41f6d79b
+=======
 Pro: Hola mundo!!
+>>>>>>> b082f50ce2106e1ae3c2a25881690cc465cc077a
 
 
 Yass: hola

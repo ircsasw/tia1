@@ -23,9 +23,9 @@ $Link) or die(mysql_error());
 		<table border="1">
 			<tr>
 				<th>id</th>
-				<th>id usuario</th>
+				<th>id_usuario</th>
 				<th>titulo</th>
-				<th>fecha pub</th>
+				<th>fecha_pub</th>
 				<th>contenido</th>
 			</tr>
 				<?php
@@ -33,9 +33,9 @@ $Link) or die(mysql_error());
 					{
 						echo "<tr>";
 						echo "<td>". $row ["id"]. "</td>";
-						echo"<td>". $row ["id usuario"]. "</td>";
+						echo"<td>". $row ["id_usuario"]. "</td>";
 						echo "<td>". $row ["titulo"]."</td>";
-						echo "<td>". $row ["fecha pub"]. "</td>";
+						echo "<td>". $row ["fecha_pub"]. "</td>";
 						echo "<td>". $row ["contenido"]. "</td>";
 						echo "</tr>";
 
