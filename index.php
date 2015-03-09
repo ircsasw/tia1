@@ -47,7 +47,7 @@ $Link) or die(mysql_error());
 		</table>
 		<table border="1">
 			<tr>
-			 <td colspan="3"> titulo1 </td> <td> controles</td>
+			 <td colspan="3"> titulo1 </td> <td> <input type="submit" name="comentar" value="comentar"> <input type="submit" name="editar" value="editar"> <input type="submit" name="borrar" value="borrar"></td>
 			</tr>
 			<tr>
 				<td colspan="4"> usuario y fecha</td>
@@ -56,13 +56,13 @@ $Link) or die(mysql_error());
 				<td colspan="4">comentario</td>
 			</tr>
 			<tr>
-				<td colspan="4">me gusta </td> 
+				<td colspan="4"> <input type="submit" name="Me gusta" value="Me gusta"> </td> 
 			</tr>
 			<tr>
-				<td colspan="3"> usuario y fecha </td> <td> controles</td>
+				<td colspan="3"> usuario y fecha </td> <td> <input type="submit" name="editar" value="editar"> <input type="submit" name="borrar" value="borrar"> </td>
 			</tr>
 			<tr> 
-				<td colspan="4"></td>
+				<td colspan="4"> comentario</td>
 			</tr>
 
 		</table>
