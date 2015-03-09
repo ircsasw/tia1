@@ -17,16 +17,16 @@ $Link) or die(mysql_error());
 
 <html>
 	<head>
-		<title>mi blog</title>
+		<title>Mi blog</title>
 	</head>
 	<body>
 		<table border="1">
 			<tr>
-				<th>id</th>
-				<th>id_usuario</th>
-				<th>titulo</th>
-				<th>fecha_pub</th>
-				<th>contenido</th>
+				<th>ID</th>
+				<th>ID Usuario</th>
+				<th>Título</th>
+				<th>Fecha de publicación</th>
+				<th>Contenido</th>
 			</tr>
 				<?php
 					while ($row = mysql_fetch_array($rs_temas)) 
