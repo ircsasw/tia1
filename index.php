@@ -41,7 +41,15 @@ $Link) or die(mysql_error());
 
 					}
 				**/ ?> 
-
+<!DOCTYPE html>
+<html>
+<head>
+	<title>mi blog</title>
+</head>
+<body>
+	<a href="longin.php"> longin </a>
+</body>
+</html>
 
 			
 		</table>
