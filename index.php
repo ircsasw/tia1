@@ -19,7 +19,11 @@ $Link) or die(mysql_error());
 	<head>
 		<title>Mi blog</title>
 	</head>
-	<body> <!--
+	<body> 
+	<?php ($row = mysql_fetch_array($rs_temas)); 
+	echo "bienvenidos a mi blog " . $row["id_usuario"]; 
+	 ?>
+	 <!--
 		<table border="1">
 			<tr>
 				<th>ID</th>
