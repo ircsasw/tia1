@@ -50,8 +50,8 @@ $Link) or die(mysql_error());
 
 <body>
 
-			
-		<a href="longin.php"> longin </a>
+			<h1> Bienvenido al blog </h1>
+		<a href="login.php"> longin </a>
 		</table>
 		
 		<table border="1">
