@@ -21,7 +21,7 @@ $Link) or die(mysql_error());
 	</head>
 	<body> 
 	<?php ($row = mysql_fetch_array($rs_temas)); 
-	echo "bienvenidos a mi blog " . $row["id_usuario"]; 
+	echo " <h1> Bienvenidos a mi blog " . $row["id_usuario"] ."</h1>"; 
 	 ?>
 	 <!--
 		<table border="1">
