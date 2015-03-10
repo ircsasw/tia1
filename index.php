@@ -19,6 +19,11 @@ $Link) or die(mysql_error());
 	<head>
 		<title>Mi blog</title>
 	</head>
+	<body> 
+	<?php ($row = mysql_fetch_array($rs_temas)); 
+	echo " <h1> Bienvenidos a mi blog " . $row["id_usuario"] ."</h1>"; 
+	 ?>
+	
 	<body>
 		<table border="1">
 			<tr>
@@ -49,8 +54,6 @@ $Link) or die(mysql_error());
 </html>
 
 <body>
-
-			<h1> Bienvenido al blog </h1>
 		<a href="login.php"> Login </a>
 		</table>
 		
