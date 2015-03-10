@@ -1,5 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+Archivo del profe
+
+
+KEVNAVA 
+=======
 Pro:
+>>>>>>> 995e47d611f6679009df783ab9f832bb41f6d79b
 =======
 Pro: Hola mundo!!
 >>>>>>> b082f50ce2106e1ae3c2a25881690cc465cc077a
@@ -16,3 +23,4 @@ Ben:Benjamin Criollo
 
 
 Arturo:qwerty
+>>>>>>> de94c12cb491d56044128a864f68dd13bbdd2967
