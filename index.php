@@ -19,7 +19,7 @@ $Link) or die(mysql_error());
 	<head>
 		<title>mi blog</title>
 	</head>
-	<body>
+	<body> <!--
 		<table border="1">
 			<tr>
 				<th>ID</th>
@@ -43,8 +43,9 @@ $Link) or die(mysql_error());
 				**/ ?> 
 
 
-			
+			-->
 		</table>
+
 		
 		<table border="1">
 		<?php ($row = mysql_fetch_array($rs_temas)) ?>
@@ -69,4 +70,5 @@ $Link) or die(mysql_error());
 
 		</table>
 	</body>
+
 </html>
