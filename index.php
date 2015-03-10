@@ -51,7 +51,7 @@ $Link) or die(mysql_error());
 <body>
 
 			<h1> Bienvenido al blog </h1>
-		<a href="login.php"> longin </a>
+		<a href="login.php"> Login </a>
 		</table>
 		
 		<table border="1">
