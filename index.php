@@ -20,7 +20,9 @@ $Link) or die(mysql_error());
 		<title>Mi blog</title>
 	</head>
 	<body>
-
+		<?php ($row = mysql_fetch_array($rs_temas));
+			echo "<h1> Bienvenidos a mi blog" . $row["id_usuario"] ."</h1>";
+			?>
 		<table border="1"> <!--
 			<tr>
 				<th>ID</th>
@@ -48,7 +50,7 @@ $Link) or die(mysql_error());
 		</table>
 		
 		<table border="1">
-		<?php ($row = mysql_fetch_array($rs_temas)) ?>
+		
 			<tr>
 			 <td colspan="3"> <?php echo $row["titulo"]; ?>  </td> <td> <input type="submit" name="comentar" value="comentar"> <input type="submit" name="editar" value="editar"> <input type="submit" name="borrar" value="borrar"></td>
 			</tr>
