@@ -17,20 +17,17 @@ $Link) or die(mysql_error());
 
 <html>
 	<head>
-		<title>Mi blog</title>
+		<title>mi blog</title>
 	</head>
 	<body>
+
 		<?php ($row = mysql_fetch_array($rs_temas));
 			echo "<h1> Bienvenidos a mi blog" . $row["id_usuario"] ."</h1>";
 			?>
-		<table border="1"> <!--
-			<tr>
-				<th>ID</th>
-				<th>ID Usuario</th>
-				<th>Título</th>
-				<th>Fecha de publicación</th>
-				<th>Contenido</th>
-			</tr>
+		<table border="1"> 
+
+		<table border="1">
+
 				<?php /**
 					while ($row = mysql_fetch_array($rs_temas)) 
 					{
@@ -44,9 +41,9 @@ $Link) or die(mysql_error());
 
 					}
 				**/ ?> 
-		</table>
-		!-->
-		<a href="login.php"> Login </a>
+
+			
+		<a href="longin.php"> longin </a><br>
 		</table>
 		
 		<table border="1">
