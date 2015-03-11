@@ -17,11 +17,10 @@ $Link) or die(mysql_error());
 
 <html>
 	<head>
-		<title>Mi blog</title>
+		<title>mi blog</title>
 	</head>
 	<body>
-
-		<table border="1"> <!--
+		<table border="1">
 			<tr>
 				<th>ID</th>
 				<th>ID Usuario</th>
@@ -42,9 +41,17 @@ $Link) or die(mysql_error());
 
 					}
 				**/ ?> 
-		</table>
-		!-->
-		<a href="login.php"> Login </a>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>mi blog</title>
+</head>
+</html>
+
+<body>
+
+			
+		<a href="longin.php"> longin </a><br>
 		</table>
 		
 		<table border="1">
