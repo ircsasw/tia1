@@ -3,6 +3,7 @@ if (isset($_POST["comentario"]))
 {
 	$comentario= $_POST ["comentario"];
 	echo "$comentario";
+}
 	$Link = mysql_connect(
 "localhost",
 "root",
@@ -16,7 +17,7 @@ $sql_temas = "SELECT * FROM temas";
 $rs_temas = mysql_query(
 $sql_temas,
 $Link) or die(mysql_error());
-}
+
 ?>
 
 <html>
@@ -55,7 +56,7 @@ $Link) or die(mysql_error());
 			<tr>
 			 <td colspan="3"> <?php echo $row["titulo"]; ?>  </td>
 			 <td>
-			 	<input type="submit" name="comentar" value="comentar" onclick="window.location.href='comentar.php'">
+			 	<input type="submit" name="comentar" value="comentar" onclick="window.location.href='comentar.php?id=<?php echo $row['id']; ?>" >
 			 	<input type="submit" name="editar" value="editar">
 			 	<input type="submit" name="borrar" value="borrar">
 			 </td>
@@ -73,7 +74,7 @@ $Link) or die(mysql_error());
 				<td colspan="3"> <?php echo $row["id_usuario"] . "-" . $row["fecha_pub"]; ?></td> <td> <input type="submit" name="editar" value="editar"> <input type="submit" name="borrar" value="borrar"> </td>
 			</tr>
 			<tr>
-				<td colspan="4"> comentario</td>
+				<td colspan="4"><?php echo "$comentario"; ?></td>
 			</tr>
 
 		</table>
