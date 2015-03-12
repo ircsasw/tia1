@@ -1,5 +1,8 @@
 <?php
-
+if (isset($_POST["comentario"])) 
+{
+	$comentario= $_POST ["comentario"];
+	echo "$comentario";
 	$Link = mysql_connect(
 "localhost",
 "root",
@@ -13,6 +16,7 @@ $sql_temas = "SELECT * FROM temas";
 $rs_temas = mysql_query(
 $sql_temas,
 $Link) or die(mysql_error());
+}
 ?>
 
 <html>
