@@ -56,7 +56,7 @@ $Link) or die(mysql_error());
 			<tr>
 			 <td colspan="3"> <?php echo $row["titulo"]; ?>  </td>
 			 <td>
-			 	<input type="submit" name="comentar" value="comentar" onclick="window.location.href='comentar.php?id=<?php echo $row['id']; ?>" >
+			 	<input type="submit" name="comentar" value="comentar" onclick="window.location.href='comentar.php?id=<?php echo $row['id'];?>'">
 			 	<input type="submit" name="editar" value="editar">
 			 	<input type="submit" name="borrar" value="borrar">
 			 </td>
