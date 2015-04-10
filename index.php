@@ -1,8 +1,8 @@
 <?php
+$comentario = "";
 if (isset($_POST["comentario"])) 
 {
-	$comentario= $_POST ["comentario"];
-	echo "$comentario";
+	$comentario= $_POST ["comentario"];	
 }
 	$Link = mysql_connect(
 "localhost",
